@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@mipmap/symptom_active">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/heightInforTableTitle"
+        android:textColor="@color/White"
+        android:id="@+id/textViewTitleDetail"
+        android:layout_alignParentTop="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:lines="1"
+        android:text="text"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:ellipsize="end"
+        android:textAllCaps="true"
+        />
+
+
+
+    <LinearLayout
+        android:layout_below="@+id/textViewTitleDetail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/heightInforTableTitle"
+        android:orientation="horizontal"
+        android:id="@+id/title01"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/White"
+            android:gravity="center"
+            android:textSize="5pt"
+            android:text="@string/detail_title_nahrstoff"
+            android:layout_weight="1"
+            android:textAllCaps="true"
+            android:id="@+id/titleDetail01"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/White"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textSize="5pt"
+            android:text="@string/detail_title_wirkung"
+            android:layout_weight="1"
+            android:id="@+id/titleDetail02"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/White"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:text="@string/detail_title_doseing"
+            android:textSize="5pt"
+            android:layout_weight="1"
+            android:id="@+id/titleDetail03"
+            />
+
+    </LinearLayout>
+
+
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listViewDetail"
+        android:background="@android:color/transparent"
+        android:layout_below="@+id/title01"
+        android:layout_marginBottom="@dimen/marginBottomOfListDetail"
+        android:listSelector="@android:color/transparent"
+        />
+
+    <View android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@mipmap/arrowcheck"
+        android:id="@+id/arrowCheck"
+        android:layout_above="@+id/groundBtn"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:listSelector="@android:color/transparent"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:background="@mipmap/search_content"
+        android:visibility="gone"
+        android:listSelector="@android:color/transparent"
+        />
+
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:id="@+id/groundBtn"
+        android:weightSum="2">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/btnInputSymptom"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/btnInputNahrstoff"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:layout_alignTop="@+id/button"
+        android:layout_alignParentEnd="true" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

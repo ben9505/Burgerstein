@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    style="@style/text">
+
+    <LinearLayout
+        android:orientation="vertical"
+        style="@style/text">
+
+        <ImageButton
+            style="@style/text"
+            android:background="@drawable/prepare_symptom"
+            android:id="@+id/btnSymptom" />
+
+        <theagency.vn.view.AppTextView
+            style="@style/text_description"
+            android:textSize="14sp"
+            android:text="@string/detail_title_symptom"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="@dimen/line_items_height"
+        android:layout_marginTop="@dimen/line_items_margin_top"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/BlackAlpha"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        style="@style/text">
+        <ImageButton
+            style="@style/text"
+            android:background="@drawable/prepare_nahrstoff"
+            android:id="@+id/btnNahrstoff" />
+
+        <theagency.vn.view.AppTextView
+            style="@style/text_description"
+            android:textSize="14sp"
+            android:text="@string/detail_title_nahrstoff"
+           />
+    </LinearLayout>
+
+</LinearLayout>

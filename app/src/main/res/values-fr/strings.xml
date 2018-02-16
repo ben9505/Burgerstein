@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">Coach Vitamines</string>
+    <string name="database_name">burgerstein_fr.db</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="langID">fr</string>
+
+    <string name="menu_uber">Qui nous\nsommes</string>
+    <string name="menu_emgage">Engagement</string>
+    <string name="menu_detail">Symptome/\nMicronutriment</string>
+    <string name="menu_contact">Nous\ncontacter</string>
+    <string name="menu_link">Liens</string>
+
+    <string name="topmenu_home">Home</string>
+    <string name="topmenu_uber">Qui nous sommes</string>
+    <string name="topmenu_emgage">Engagement</string>
+    <string name="topmenu_detail">Symptome / Micronutriment</string>
+    <string name="topmenu_contact">Nous contacter</string>
+    <string name="topmenu_link">Liens</string>
+    <string name="skipintro">{ Passer l\'intro }</string>
+    <string name="link_title">
+        Fréquentez notre\nsite web!
+    </string>
+    <string name="link_content">
+        Pour recevoir des informations supplémentaires concernant la Foundation Burgerstein et des micronutriments, veuillez contacter les pages suivantes.\n\n
+    </string>
+
+     <string name="uber_text">
+    </string>
+    <string name="emgage_text">
+    </string>
+    <string name="prepare_text">
+        \n
+        L\'utilisation de micronutriments (vitamines, sels minéraux, oligoéléments mais aussi acides
+        aminés et acides gras) au quotidien est largement répandue et fondée sur des preuves
+        scientifiques.\n
+        Découvrez ici dans quels domaines les micronutriments peuvent être utilisés à des fins aussi
+        bien préventives que thérapeutiques.
+        Les informations données se fondent sur l\'état actuel des connaissances scientifiques. Elles ne
+        remplacent en aucun cas un traitement médical ou une prise en charge médicale
+        professionnelle.\n
+    </string>
+    <!--detail symptom-->
+    <string name="detail_title_symptom">
+        Symptome
+    </string>
+    <string name="detail_title_nahrstoff">
+        Micronutriment
+    </string>
+    <string name="detail_title_wirkung">
+        Effet
+    </string>
+    <string name="detail_title_doseing">
+        Dosage
+    </string>
+    <string name="detail_symptom">
+    Vous trouverez ici les symptômes courants pour lesquels l\'utilisation de micronutriments peut être utile.
+    Les informations données se fondent sur l\'état actuel des connaissances scientifiques. Elles ne remplacent en aucun cas
+    un traitement médical ou une prise en charge médicale professionnelle.
+
+    </string>
+    <string name="detail_nahrstoff">
+    Vous trouverez ici la liste des micronutriments qui pourraient vous convenir, selon vos besoins et vos symptômes.
+    Les informations données se fondent sur l\'état actuel des connaissances scientifiques. Elles ne remplacent en aucun cas
+    un traitement médical ou une prise en charge médicale professionnelle.
+    </string>
+    <string name="detail_bottom">
+        Berühren Sie, um Symptom oder Nährstoff wählen
+    </string>
+
+    <!--Contact-->
+    <string name="contact_text01">
+        Vos messages sont toujours les bienvenus. Si vous avez une question ou une remarque, n\'hésitez pas à nous en faire part.
+    </string>
+    <string name="contact_title">
+        Nous contacter
+    </string>
+    <string name="contact_text02">
+        BURGERSTEIN FOUNDATION
+    </string>
+    <string name="contact_address">
+        8640 Rapperswil-Jona Suisse
+    </string>
+    <string name="contact_phone">
+        Téléphone: +41 55 220 72 91
+    </string>
+    <string name="contact_website">
+        Site Web: www.burgerstein-foundation.ch
+    </string>
+    <string name="sendemail_backcontent">
+        Envoyez-nous un message
+    </string>
+
+    <string name="hint_vorname">Prénom Nom</string>
+    <string name="hint_firma">Société</string>
+    <string name="hint_email">Mail</string>
+    <string name="hint_phone">Téléphone</string>
+    <string name="hint_nachricht">Votre message</string>
+
+
+
+
+
+
+    <!--database-->
+    <string-array name="in_for_only_row">
+        <item>Le café, le thé, les produits de blé complet inhibent l’absorption du fer</item>
+        <item>En cas de peau très sèche, dosage plus élevé de l’huile d’onagre (jusqu’à 3 g/jour) et de la vitamine E (400 UI = 268 mg/j).</item>
+        <item>Eviter sucreries, mets riches en graisses, épices fortes et alcool. Prendre en compte des intolérances alimentaires (év. élucider).</item>
+        <item>Le complément le plus adéquat est une préparation multivitaminée qui contient, outre le calcium et la vitamine D primordiaux, d’autres micronutriments qui soutiennent le métabolisme osseux</item>
+        <item>Au minimum 3 semaines et au mieux 10-12 semaines avant l’exposition au soleil. Lors d’allergie au soleil: combinaison avec &lt;b&gt;500-1’000 mg&lt;/b&gt; de calcium et 1 g de vitamine C.</item>
+        <item>Recommandation complète 3 semaines déjà avant l’opération.</item>
+    </string-array>
+
+
+
+</resources>

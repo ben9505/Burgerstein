@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@mipmap/background"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@drawable/btn_back"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/textViewInfoBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:text="@string/sendemail_backcontent"
+            android:textColor="@color/textContact"
+            android:textSize="@dimen/sendemail_contentback" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/filltext1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            style="@style/image_view"
+            android:src="@mipmap/fill_text_1" />
+
+        <EditText
+            android:id="@+id/editTextName"
+            style="@style/edit_text_contact"
+            android:hint="@string/hint_vorname" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/filltext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            style="@style/image_view"
+            android:src="@mipmap/fill_text_2" />
+
+        <EditText
+            android:id="@+id/editTextCompany"
+            style="@style/edit_text_contact"
+            android:hint="@string/hint_firma" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/filltext3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            style="@style/image_view"
+            android:src="@mipmap/fill_text_3" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            style="@style/edit_text_contact"
+            android:hint="@string/hint_email"
+            android:inputType="textEmailAddress" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/filltext4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            style="@style/image_view"
+            android:src="@mipmap/fill_text_4" />
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            style="@style/edit_text_contact"
+            android:hint="@string/hint_phone"
+            android:inputType="textPersonName" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/filltext5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            style="@style/image_view"
+            android:src="@mipmap/fill_text_5" />
+
+        <EditText
+            android:id="@+id/editTextContent"
+            style="@style/edit_text_contact"
+            android:layout_gravity="top"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/hint_nachricht"
+            android:inputType="textPersonName"
+            android:minLines="5"
+            android:maxLines="5"
+            android:paddingTop="5dp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/redColor"
+        android:visibility="gone" />
+
+    <include
+        layout="@layout/itemfor_sendemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/marginTopButtomSendEmail" />
+
+
+</LinearLayout>

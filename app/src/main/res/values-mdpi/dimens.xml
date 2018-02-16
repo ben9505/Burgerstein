@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--activity_main-->
+    <dimen name="bar_height">34dp</dimen>
+    <!--topmenu-->
+    <dimen name="item_text_size">5pt</dimen>
+    <dimen name="topmenu_menuBarleft">40dp</dimen>
+    <!--fragment home-->
+    <dimen name="logo_width">300dp</dimen>
+    <dimen name="logo_margin_top">80dp</dimen>
+    <dimen name="btn_menu_width">80dp</dimen>
+    <dimen name="btn_menu_height">40dp</dimen>
+    <dimen name="btntop_margin_top">180dp</dimen>
+    <dimen name="btnbottom_margin_top">490dp</dimen>
+    <dimen name="tough_margin_top">580dp</dimen>
+    <dimen name="tough_margin_top02">400dp</dimen>
+    <dimen name="barmenu_width">75dp</dimen>
+    <dimen name="barmenu_height">310dp</dimen>
+    <dimen name="barmenu_margin_top">220dp</dimen>
+    <!--menu-->
+    <dimen name="line_width">60dp</dimen>
+    <dimen name="item_menu_size">6pt</dimen>
+    <!--fragment uber uns-->
+    <dimen name="uber_logo_width">280dp</dimen>
+    <dimen name="uber_logo_margin_top">100dp</dimen>
+    <!--fragment prepare-->
+    <dimen name="btn_prepare_width">60dp</dimen>
+    <dimen name="items_width">240dp</dimen>
+    <dimen name="line_items_height">30dp</dimen>
+    <dimen name="line_items_margin_top">14dp</dimen>
+    <dimen name="size_text_detail">6pt</dimen>
+    <!-- Detail -->
+    <dimen name="title_size">23pt</dimen>
+    <dimen name="btn_zoom_size">40dp</dimen>
+    <dimen name="titleMarginTop">60dp</dimen>
+    <dimen name="contentMarginTop">115dp</dimen>
+    <dimen name="searchBarMarginTop">150dp</dimen>
+    <dimen name="btnArrowShowInfo">100dp</dimen>
+    <dimen name="inforTableMarginTop">190dp</dimen>
+    <dimen name="heightInforTableTitle">35dp</dimen>
+    <!--fragment contact-->
+    <dimen name="btn_contact_width">70dp</dimen>
+    <dimen name="contact_title_size">17pt</dimen>
+    <dimen name="sendemail_contentback">11pt</dimen>
+    <dimen name="vornameMarginTop">35dp</dimen>
+    <dimen name="firmaMarginTop">42dp</dimen>
+    <dimen name="emailMarginTop">40dp</dimen>
+    <dimen name="phoneMarginTop">43dp</dimen>
+    <dimen name="nachrichtMarginTop">37dp</dimen>
+</resources>

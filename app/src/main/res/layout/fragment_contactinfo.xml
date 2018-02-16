@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <theagency.vn.view.AppTextView
+        style="@style/text"
+        android:text="@string/contact_title"
+        android:textColor="@color/textContact"
+        android:textSize="@dimen/contact_title_size"
+        android:layout_marginTop="@dimen/uber_logo_margin_top"
+        app:fonts="bold" />
+
+
+    <theagency.vn.view.AppTextView
+        style="@style/text_description"
+        android:text="@string/contact_text01"
+        />
+
+    <theagency.vn.view.AppTextView
+        android:text="@string/contact_text02"
+        style="@style/text_description" />
+
+    <theagency.vn.view.AppTextView
+        android:textSize="@dimen/uberContentTextSize"
+        android:text="@string/contact_address"
+        style="@style/text_description"/>
+
+    <theagency.vn.view.AppTextView
+        android:text="@string/contact_phone"
+        style="@style/text_description"/>
+
+    <theagency.vn.view.AppTextView
+        android:text="@string/contact_website"
+        style="@style/text_description"/>
+
+    <ImageButton
+        style="@style/text"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnPrepareSendEmail"
+        android:src="@drawable/contact_email"
+        android:background="@android:color/transparent"/>
+</LinearLayout>

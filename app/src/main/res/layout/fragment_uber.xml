@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical">
+    <ImageView
+        style="@style/text"
+        android:layout_marginTop="@dimen/uber_logo_margin_top"
+        android:layout_height="wrap_content"
+        android:id="@+id/logo_uber"
+        android:src="@mipmap/uber_headline"
+        android:layout_centerHorizontal="true" />
+
+    <theagency.vn.view.AppTextView
+        style="@style/text_description"
+        android:text="@string/uber_text"/>
+</LinearLayout>

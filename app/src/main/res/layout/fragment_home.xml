@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_cover">
+    <RelativeLayout
+        android:id="@+id/rlHomeContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true"
+            android:animateLayoutChanges="true"
+            android:gravity="center">
+
+            <ImageButton
+                android:layout_width="@dimen/barmenu_width"
+                android:layout_height="@dimen/btn_menu_height"
+                android:layout_alignParentTop="true"
+                android:adjustViewBounds="true"
+                android:id="@+id/cover_btn_top"
+                android:src="@mipmap/left_button"
+                android:background="@android:color/transparent"/>
+            <include
+                android:layout_width="@dimen/barmenu_width"
+                android:layout_height="@dimen/barmenu_height"
+                android:layout_centerHorizontal="true"
+                layout="@layout/menu"
+                android:visibility="gone"
+                android:id="@+id/cover_menu"/>
+            <ImageButton
+                android:layout_width="@dimen/barmenu_width"
+                android:layout_height="@dimen/btn_menu_height"
+                android:id="@+id/cover_btn_bottom"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/right_button"
+                android:background="@android:color/transparent"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cover_toughDescription">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView2"
+                    android:src="@mipmap/hand"
+                    android:layout_gravity="center_horizontal|top" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Antippen"
+                    android:textAlignment="center"
+                    android:textColor="@color/BlackAlpha"
+                    android:gravity="center"
+                    android:id="@+id/tough"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

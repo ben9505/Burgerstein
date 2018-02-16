@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--activity_main-->
+    <dimen name="bar_height">30dp</dimen>
+    <!--topmenu-->
+    <dimen name="item_text_size">6pt</dimen>
+    <dimen name="topmenu_menuBarleft">40dp</dimen>
+    <!--fragment home-->
+    <dimen name="logo_margin_top">90dp</dimen>
+    <dimen name="btn_menu_width">80dp</dimen>
+    <dimen name="btn_menu_height">40dp</dimen>
+    <dimen name="btntop_margin_top">120dp</dimen>
+    <dimen name="btnbottom_margin_top">400dp</dimen>
+    <dimen name="tough_margin_top">490dp</dimen>
+    <dimen name="tough_margin_top02">350dp</dimen>
+    <dimen name="barmenu_width">75dp</dimen>
+    <dimen name="barmenu_height">280dp</dimen>
+    <dimen name="barmenu_margin_top">160dp</dimen>
+    <dimen name="margintop_content">-20dp</dimen>
+    <!--menu-->
+    <dimen name="line_width">60dp</dimen>
+    <dimen name="item_menu_size">5pt</dimen>
+    <!--fragment uber uns-->
+    <dimen name="uber_logo_width">240dp</dimen>
+    <dimen name="uber_logo_margin_top">80dp</dimen>
+    <dimen name="prepare_logo_margin_top">70dp</dimen>
+    <dimen name="uberContentTextSize">6pt</dimen>
+    <dimen name="uberContentMarginTop">20dp</dimen>
+    <dimen name="padding_logo">50dp</dimen>
+    <!--fragment prepare-->
+    <dimen name="btn_prepare_width">60dp</dimen>
+    <dimen name="items_width">240dp</dimen>
+    <dimen name="line_items_height">30dp</dimen>
+    <dimen name="line_items_margin_top">14dp</dimen>
+    <dimen name="size_text_detail">6pt</dimen>
+    <!-- Detail -->
+    <dimen name="title_size">20pt</dimen>
+    <dimen name="btn_zoom_size">40dp</dimen>
+    <dimen name="titleMarginTop">45dp</dimen>
+    <dimen name="contentMarginTop">80dp</dimen>
+    <dimen name="searchBarMarginTop">150dp</dimen>
+
+    <dimen name="btnArrowShowInfo">90dp</dimen>
+    <dimen name="inforTableMarginTop">180dp</dimen>
+    <dimen name="heightInforTableTitle">33dp</dimen>
+    <dimen name="paddingLeftEditTextSearchBar">40dp</dimen>
+    <dimen name="heightArrowSearchBar">25dp</dimen>
+    <dimen name="animationYShowInfo">120dp</dimen>
+    <dimen name="heightItems">54dp</dimen>
+    <dimen name="marginBottomOfListDetail">37dp</dimen>
+    <dimen name="marginBottomDetailInfo">50dp</dimen>
+
+    <dimen name="sizetextdetail">13px</dimen>
+    <!--fragment contact-->
+    <dimen name="btn_contact_width">70dp</dimen>
+    <dimen name="contact_title_size">13pt</dimen>
+    <dimen name="sendemail_contentback">8pt</dimen>
+    <dimen name="heightEditTextBackground">50dp</dimen>
+    <dimen name="heightEditTextContentBackground">170dp</dimen>
+    <dimen name="paddingLeftContactEditText">55dp</dimen>
+    <dimen name="paddingTopEditTextNachricht">15dp</dimen>
+    <dimen name="marginTopOfBtnBack">50dp</dimen>
+    <dimen name="marginBottomOfBtnBack">10dp</dimen>
+    <dimen name="widthButtonsContact">70dp</dimen>
+    <dimen name="heightButtonsContact">28dp</dimen>
+    <dimen name="marginTopButtomSendEmail">5dp</dimen>
+
+</resources>

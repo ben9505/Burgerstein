@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">Vitamin-Coach</string>
+    <string name="database_name">burgerstein_de.db</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="langID">de</string>
+
+    <string name="menu_uber">Über\nuns</string>
+    <string name="menu_emgage">Engagement</string>
+    <string name="menu_detail">Symptom/\nNährstoff</string>
+    <string name="menu_contact">Kontaktieren\nsie uns</string>
+    <string name="menu_link">Links</string>
+
+    <string name="topmenu_home">Home</string>
+    <string name="topmenu_uber">Über uns</string>
+    <string name="topmenu_emgage">Engagement</string>
+    <string name="topmenu_detail">Symptom / Nährstoff</string>
+    <string name="topmenu_contact">Kontaktieren sie uns</string>
+    <string name="topmenu_link">Links</string>
+    <string name="skipintro">{ Intro überspringen }</string>
+
+     <string name="uber_text">
+        \n
+        “Nicht die Krankheit sondern die Gesundheit\n
+        soll man pflegen”\n
+        Dr. Lothar Burgerstein\n
+        Im Todesjahr des Pioniers und Mitgründer
+        der Antistress AG, Dr. Lothar Burgerstein, gründet sein
+        Sohn die “Internationale Stiftung zur Förderung
+        der orthomolekularen Medizin” heute bekannt als
+        “Burgerstein Foundation – Micronutrients
+        for Health”.
+
+    </string>
+    <string name="emgage_text">
+        \n
+        Sinn und Zweck der Stiftung ist es, das Wissen über
+        die Eigenschaften und Wirkungen
+        der Mikronährstoffe zu fördern und damit die Vorteile
+        über den Einsatz von Mikronährstoffen
+        in der Prävention wie auch der Therapie einem
+        möglichst breiten Publikum zugänglich zu machen.
+        Seit 2001 publiziert die Stiftung jährlich mehrere
+        Newsletter mit den neuesten wissenschaftlichen
+        Studienerkenntnissen.\n
+        Der 8-tägige Diplomkurs über den vielseitigen Einsatz
+        von Mikronährstoffen in der Praxis wurde 1997 ins
+        Leben gerufen und es konnten bis 2014 über 2000
+        Fachpersonen ausgebildet werden. 2007 wurde
+        erstmals ein Ärztekongress organisiert,
+        der sich mittlerweile zu einem festen
+        Bestandteil der medizinischen Weiterbildung
+        etabliert hat.
+
+    </string>
+    <string name="prepare_text">
+        \n
+        Der Einsatz von Mikronährstoffen, sprich Vitamine,
+        Mineralstoffe, Spurenelemente wie auch
+        Amino- und Fettsäuren, im alltäglichen Leben ist
+        weit verbreitet und wissenschaftlich belegt.
+        Informieren Sie sich hier in welchen Einsatzgebieten
+        Mikronährstoffe zur Prävention
+        oder auch Therapie eingesetzt werden können.\n
+        Die gemachten Angaben basieren auf dem aktuellen
+        wissenschaftlichen Erkenntnisstand.
+        Sie ersetzen keine ärztliche Behandlung bzw.
+        fachmännische, medizinische Betreuung.\n
+    </string>
+
+    <!--detail symptom-->
+    <string name="detail_title_symptom">
+        Symptom
+    </string>
+    <string name="detail_title_nahrstoff">
+        Nährstoff
+    </string>
+    <string name="detail_title_wirkung">
+        Wirkung
+    </string>
+    <string name="detail_title_doseing">
+        Dosierung
+    </string>
+    <string name="detail_symptom">
+    Hier finden Sie die geläufige Symptome bei welchen
+    der Einsatz von Mikronährstoffen sinnvoll ist.
+    Die gemachten Angaben basieren auf dem aktuellen
+    wissenschaftlichen Erkenntnisstand. Sie ersetzen
+    keine ärztliche Behandlung bzw. fachmännische,
+    medizinische Betreuung.
+    </string>
+    <string name="detail_nahrstoff">
+    Hier finden Sie eine Auflistung welche Mikronährstoffe
+    für Ihre persönlichen Bedürfnisse/Symptome
+    geeignet wären. Die gemachten Angaben basieren auf
+    dem aktuellen wissenschaftlichen Erkenntnisstand.
+    Sie ersetzen keine ärztliche Behandlung bzw.
+    fachmännische, medizinische Betreuung.
+    </string>
+    <string name="detail_bottom">
+        Berühren Sie, um Symptom oder Nährstoff wählen
+    </string>
+
+    <!--Contact-->
+    <string name="contact_text01">
+        Wir freuen uns immer von Ihnen zu hören.
+        Zögern Sie nicht hier Ihre Frage oder Ihr Anliegen
+        an uns zu richten.
+    </string>
+    <string name="contact_title">
+        Kontaktieren Sie uns
+    </string>
+    <string name="contact_text02">
+        BURGERSTEIN FOUNDATION
+    </string>
+    <string name="contact_address">
+        8640 Rapperswil-Jona Schweiz
+    </string>
+    <string name="contact_phone">
+        Telefon: +41 55 220 72 91
+    </string>
+    <string name="contact_website">
+        Website: www.burgerstein-foundation.ch
+    </string>
+    <string name="sendemail_backcontent">
+        Senden Sie uns eine Nachricht
+    </string>
+    <string name="link_title">
+        Besuchen Sie uns!
+    </string>
+    <string name="link_content">
+        Für mehr Informationen über die Burgerstein Foundation und über Mikronährstoffe besuchen Sie die folgenden Seiten.\n\n
+    </string>
+
+
+    <string name="hint_vorname">Vorname</string>
+    <string name="hint_firma">Firma</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_nachricht">Nachricht</string>
+
+
+
+
+
+    <!--database-->
+    <string-array name="in_for_only_row">
+        <item>Kaffee, Schwarztee und Vollkornprodukte hemmen die Resorption von Eisen.</item>
+        <item>Bei sehr trockener Haut: Dosiserhöhung bei Nachtkerzenöl (bis 3 g/d) und Vitamin E (400 I.E. = 268 mg/d).</item>
+        <item>Süssigkeiten, fettreiche Kost, scharfe Gewürze u. Alkohol meiden. Nahrungsmittelunverträglichkeiten beachten (evtl. abklären).</item>
+        <item>Am besten geeignet ist ein kombiniertes Mineralstoffpräparat mit Kalzium/Vitamin D und weiteren wichtigen Mikronährstoffen für den Knochenstoffwechsel.</item>
+        <item>Mindestens 3 Wochen, besser 10-12 Wochen, vor der Sonnenexposition. Bei Sonnenallergie: Kombination mit &lt;b&gt;500-1’000 mg&lt;/b&gt; Kalzium und 1 g Vitamin C.</item>
+        <item>Ganze Empfehlung bereits 3 Wochen präoperativ empfehlenswert.</item>
+    </string-array>
+
+
+
+</resources>

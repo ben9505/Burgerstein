@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sizetextdetail"
+        android:text="info1"
+        android:padding="5dp"
+        android:textColor="@color/WhiteAlpha50"
+        android:layout_weight="1"
+        android:id="@+id/textViewInfo01" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sizetextdetail"
+        android:text="info2"
+        android:textColor="@color/WhiteAlpha50"
+        android:layout_weight="1"
+        android:paddingBottom="10dp"
+        android:id="@+id/textViewInfo02" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sizetextdetail"
+        android:text="info2"
+        android:textColor="@color/WhiteAlpha50"
+        android:layout_marginLeft="5dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:layout_weight="1"
+        android:id="@+id/textViewInfo03" />
+        </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/backgroundYellow"
+        android:weightSum="1">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/WhiteAlpha5"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sizetextdetail"
+            android:text="info2"
+            android:textColor="@color/Black"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/YELLOW"
+            android:layout_weight="1"
+
+            android:id="@+id/textViewInfo04" />
+        </LinearLayout>
+</LinearLayout>

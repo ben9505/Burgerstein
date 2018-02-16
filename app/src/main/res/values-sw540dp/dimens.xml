@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="device_height">640dp</dimen>
+    <dimen name="device_width">320dp</dimen>
+    <!--activity_main-->
+    <dimen name="bar_height">50dp</dimen>
+    <!--topmenu-->
+    <dimen name="item_text_size">8pt</dimen>
+    <dimen name="topmenu_menuBarleft">60dp</dimen>
+    <dimen name="margintop_content">0dp</dimen>
+    <!--fragment home-->
+    <dimen name="logo_margin_top">100dp</dimen>
+    <dimen name="btn_menu_width">100dp</dimen>
+    <dimen name="btn_menu_height">50dp</dimen>
+    <dimen name="btntop_margin_top">280dp</dimen>
+    <dimen name="btnbottom_margin_top">680dp</dimen>
+    <dimen name="tough_margin_top">790dp</dimen>
+    <dimen name="tough_margin_top02">560dp</dimen>
+    <dimen name="barmenu_width">95dp</dimen>
+    <dimen name="barmenu_height">400dp</dimen>
+    <dimen name="barmenu_margin_top">330dp</dimen>
+    <dimen name="padding_logo">50dp</dimen>
+    <!--menu-->
+    <dimen name="line_width">80dp</dimen>
+    <dimen name="item_menu_size">6pt</dimen>
+    <!--fragment uber uns-->
+    <dimen name="uber_logo_width">450dp</dimen>
+    <dimen name="uber_logo_margin_top">180dp</dimen>
+    <dimen name="uberContentTextSize">8pt</dimen>
+    <dimen name="uberContentMarginTop">20dp</dimen>
+    <dimen name="prepare_logo_margin_top">170dp</dimen>
+    <!--fragment prepare-->
+    <dimen name="btn_prepare_width">80dp</dimen>
+    <dimen name="items_width">290dp</dimen>
+    <dimen name="line_items_height">50dp</dimen>
+    <dimen name="line_items_margin_top">20dp</dimen>
+    <dimen name="size_text_detail">6pt</dimen>
+    <!-- Detail -->
+    <dimen name="title_size">30pt</dimen>
+    <dimen name="btn_zoom_size">50dp</dimen>
+    <dimen name="titleMarginTop">70dp</dimen>
+    <dimen name="contentMarginTop">140dp</dimen>
+    <dimen name="searchBarMarginTop">205dp</dimen>
+
+    <dimen name="btnArrowShowInfo">150dp</dimen>
+    <dimen name="inforTableMarginTop">250dp</dimen>
+    <dimen name="heightInforTableTitle">50dp</dimen>
+    <dimen name="paddingLeftEditTextSearchBar">55dp</dimen>
+    <dimen name="heightArrowSearchBar">37dp</dimen>
+    <dimen name="animationYShowInfo">180dp</dimen>
+    <dimen name="heightItems">101dp</dimen>
+    <dimen name="marginBottomOfListDetail">50dp</dimen>
+    <dimen name="marginBottomDetailInfo">70dp</dimen>
+
+    <dimen name="sizetextdetail">7pt</dimen>
+    <!--fragment contact-->
+    <!--<dimen name="btn_contact_width">70dp</dimen>-->
+    <!--<dimen name="contact_title_size">17pt</dimen>-->
+    <!--<dimen name="sendemail_contentback">9pt</dimen>-->
+    <!--<dimen name="vornameMarginTop">21dp</dimen>-->
+    <!--<dimen name="firmaMarginTop">38dp</dimen>-->
+    <!--<dimen name="emailMarginTop">36dp</dimen>-->
+    <!--<dimen name="phoneMarginTop">38dp</dimen>-->
+    <!--<dimen name="nachrichtMarginTop">33dp</dimen>-->
+    <dimen name="btn_contact_width">100dp</dimen>
+    <dimen name="contact_title_size">22pt</dimen>
+    <dimen name="sendemail_contentback">13pt</dimen>
+    <dimen name="heightEditTextBackground">80dp</dimen>
+    <dimen name="heightEditTextContentBackground">290dp</dimen>
+    <dimen name="paddingLeftContactEditText">90dp</dimen>
+    <dimen name="paddingTopEditTextNachricht">20dp</dimen>
+    <dimen name="marginTopOfBtnBack">90dp</dimen>
+    <dimen name="marginBottomOfBtnBack">20dp</dimen>
+    <dimen name="widthButtonsContact">120dp</dimen>
+    <dimen name="heightButtonsContact">48dp</dimen>
+    <dimen name="marginTopButtomSendEmail">25dp</dimen>
+
+</resources>

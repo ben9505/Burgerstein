@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/BackgroundSubMenu"
+
+        android:layout_weight="1"
+        android:weightSum="8">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:background="@color/itemSubMenuAlpha1"
+        android:text="@string/topmenu_home"
+        android:padding="10dp"
+        android:textSize="@dimen/item_text_size"
+        android:id="@+id/btnSubHome"
+         />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:background="@android:color/transparent"
+        android:padding="10dp"
+        android:text="@string/topmenu_uber"
+        android:textSize="@dimen/item_text_size"
+        android:id="@+id/btnSubUns" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:background="@color/itemSubMenuAlpha1"
+        android:padding="10dp"
+        android:text="@string/topmenu_emgage"
+        android:textSize="@dimen/item_text_size"
+        android:id="@+id/btnSubEmgega" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:background="@android:color/transparent"
+        android:padding="10dp"
+        android:text="@string/topmenu_detail"
+        android:textSize="@dimen/item_text_size"
+        android:id="@+id/btnSubDetail" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:background="@color/itemSubMenuAlpha1"
+        android:padding="10dp"
+        android:text="@string/topmenu_contact"
+        android:textSize="@dimen/item_text_size"
+        android:id="@+id/btnSubContact" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:background="@android:color/transparent"
+        android:padding="10dp"
+        android:text="@string/topmenu_link"
+        android:textSize="@dimen/item_text_size"
+        android:id="@+id/btnSubLink" />
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:id="@+id/btnCloseTopMenu" />
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:weightSum="2">
+    <ImageButton
+        android:layout_width="@dimen/widthButtonsContact"
+        android:layout_height="@dimen/heightButtonsContact"
+        android:background="@mipmap/send_button"
+        android:layout_gravity="left"
+        android:id="@+id/btnSend"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        />
+    <View
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        />
+    <ImageButton
+        android:layout_width="@dimen/widthButtonsContact"
+        android:layout_height="@dimen/heightButtonsContact"
+        android:background="@mipmap/clear_button"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="right"
+        android:id="@+id/btnClear"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>

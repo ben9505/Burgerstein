@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--100% — FF-->
+    <!--95% — F2-->
+    <!--90% — E6-->
+    <!--85% — D9-->
+    <!--80% — CC-->
+    <!--75% — BF-->
+    <!--70% — B3-->
+    <!--65% — A6-->
+    <!--60% — 99-->
+    <!--55% — 8C-->
+    <!--50% — 80-->
+    <!--45% — 73-->
+    <!--40% — 66-->
+    <!--35% — 59-->
+    <!--30% — 4D-->
+    <!--25% — 40-->
+    <!--20% — 33-->
+    <!--15% — 26-->
+    <!--10% — 1A-->
+    <!--5% — 0D-->
+    <!--0% — 00-->
+    <color name="bg_cover">#B4A599</color>
+    <color name="Black">#D9000000</color>
+    <color name="BlackAlpha">#66000000</color>
+    <color name="BlackAlpha20">#33000000</color>
+    <color name="White">#fff</color>
+    <color name="WhiteAlpha50">#ffd6d6d6</color>
+    <color name="WhiteAlpha5">#80cccecd</color>
+    <color name="textColorSubMenuNormal">#80ffffff</color>
+    <color name="textColorSubMenuActive">#f2ffffff</color>
+    <color name="GreenTitle">#ff91bb7c</color>
+    <color name="BackgroundSubMenu">#57294e</color>
+    <color name="itemSubMenuAlpha1">#54254a</color>
+    <color name="redColor">#cc0000</color>
+    <color name="textContact">#63564b</color>
+    <color name="YELLOW">#ffffd906</color>
+</resources>

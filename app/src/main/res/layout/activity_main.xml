@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <theagency.vn.support.FullScreenVideoView
+        android:id="@+id/myvideoview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/btnSkipIntro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/transparent"
+        android:text="@string/skipintro"
+        android:textSize="5pt" />
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_cover"
+        android:visibility="gone"
+        android:clickable="false" />
+
+</FrameLayout>
